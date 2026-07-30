@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대전-옥천 당일치기 힐링 여행</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --text-color: #333;
+            --bg-color: #f4f7f6;
+        }
+        body {
+            font-family: 'Pretendard', 'Malgun Gothic', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 600px;
+            margin: -30px auto 2rem auto;
+            padding: 0 15px;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card-image {
+            width: 100%;
+            height: 220px;
+            background-color: #e9ecef;
+            object-fit: cover;
+            display: block;
+        }
+        .card-content {
+            padding: 1.5rem;
+        }
+        .time-badge {
+            display: inline-block;
+            background-color: #ebf4ff;
+            color: var(--primary-color);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        .card h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.4rem;
+            color: #2d3748;
+        }
+        .card p {
+            margin: 0 0 10px 0;
+            color: #4a5568;
+            font-size: 0.95rem;
+        }
+        .tag-wrap {
+            margin-top: 15px;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #f1f5f9;
+            color: #64748b;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            margin-right: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #718096;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>대전·옥천 당일치기</h1>
+        <p>🚗 땀 안 흘리고 차에서 즐기는 힐링 코스</p>
+    </header>
+
+    <div class="container">
+        <!-- 1. 대전역 도착 -->
+        <div class="card">
+            <img src="./images/1_daejeon_station.jpg" alt="대전역 풍경" class="card-image" onerror="this.src='https://images.unsplash.com/photo-1563299796-b729d0af5f15?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+            <div class="card-content">
+                <div class="time-badge">오전 11:00</div>
+                <h2>대전역 도착 및 픽업</h2>
+                <p>일행과 반갑게 만나 렌터카를 픽업하고 편안한 여행을 시작합니다.</p>
+                <div class="tag-wrap">
+                    <span class="tag">#여행의시작</span>
+                    <span class="tag">#렌터카픽업</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. 점심 -->
+        <div class="card">
+            <img src="./images/2_wonmi_noodle.jpg" alt="원미면옥 냉면" class="card-image" onerror="this.src='https://images.unsplash.com/photo-1552611052-33e04de081de?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+            <div class="card-content">
+                <div class="time-badge">오전 11:30</div>
+                <h2>점심: 원미면옥</h2>
+                <p>진한 닭육수에 쫄깃한 면발! 더위를 날려버릴 시원한 냉면으로 든든하게 배를 채웁니다.</p>
+                <div class="tag-wrap">
+                    <span class="tag">#닭육수냉면</span>
+                    <span class="tag">#대전맛집</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. 대청호 드라이브 -->
+        <div class="card">
+            <img src="./images/3_daecheongho.jpg" alt="대청호 드라이브" class="card-image" onerror="this.src='https://images.unsplash.com/photo-1623512270929-daaaee902030?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+            <div class="card-content">
+                <div class="time-badge">오후 12:30</div>
+                <h2>대청호 호반낭만길 드라이브</h2>
+                <p>에어컨 빵빵하게 틀고 대청호의 눈부신 윤슬을 감상하며 힐링 드라이브를 즐깁니다. (예쁜 카페가 보이면 잠시 정차!)</p>
+                <div class="tag-wrap">
+                    <span class="tag">#드라이브명소</span>
+                    <span class="tag">#대청호오백리길</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. 정지용 생가 -->
+        <div class="card">
+            <img src="./images/4_jeongjiyong.jpg" alt="정지용 생가" class="card-image" onerror="this.src='https://images.unsplash.com/photo-1577905869407-73d892695c0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+            <div class="card-content">
+                <div class="time-badge">오후 2:00</div>
+                <h2>옥천 시인 정지용 생가</h2>
+                <p>가파른 언덕이나 계단 없는 평지! 고즈넉한 한옥을 땀 흘리지 않고 여유롭게 산책합니다.</p>
+                <div class="tag-wrap">
+                    <span class="tag">#향수</span>
+                    <span class="tag">#감성산책</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. 간식 -->
+        <div class="card">
+            <img src="./images/5_pungmidang.jpg" alt="풍미당 물쫄면" class="card-image" onerror="this.src='https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+            <div class="card-content">
+                <div class="time-badge">오후 3:00</div>
+                <h2>옥천 명물: 풍미당 물쫄면</h2>
+                <p>오후의 출출함을 달래줄 이색 간식 타임! 따끈한 국물에 말아먹는 특별한 쫄면을 경험해보세요.</p>
+                <div class="tag-wrap">
+                    <span class="tag">#생활의달인</span>
+                    <span class="tag">#물쫄면</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6. 전망대 -->
+        <div class="card">
+            <img src="./images/6_sikjangsan.jpg" alt="식장산 전망대" class="card-image" onerror="this.src='https://images.unsplash.com/photo-1549420063-e380f75e24a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+            <div class="card-content">
+                <div class="time-badge">오후 4:00</div>
+                <h2>식장산 해돋이전망대</h2>
+                <p>등산은 1도 필요 없습니다. 산 정상 주차장까지 차로 쭉 올라가서 시원한 바람과 탁 트인 뷰를 감상합니다.</p>
+                <div class="tag-wrap">
+                    <span class="tag">#전망끝판왕</span>
+                    <span class="tag">#차로가는정상</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 7. 저녁 -->
+        <div class="card">
+            <img src="./images/7_hanbat.jpg" alt="한밭칼국수 두부탕" class="card-image" onerror="this.src='https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+            <div class="card-content">
+                <div class="time-badge">오후 6:00</div>
+                <h2>저녁: 한밭칼국수 (두부탕)</h2>
+                <p>얼큰하고 깔끔한 두부탕에 칼국수 사리를 추가해 여행의 피로를 든든하게 풀어냅니다.</p>
+                <div class="tag-wrap">
+                    <span class="tag">#대전역근처</span>
+                    <span class="tag">#여독풀기</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>이번 여행도 즐겁고 안전하게 다녀오세요! 😉</p>
+    </footer>
+
+</body>
+</html>
